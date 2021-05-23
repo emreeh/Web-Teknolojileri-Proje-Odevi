@@ -1,0 +1,122 @@
+.govde {
+  background-color: rgb(121, 180, 248);
+  margin: 2rem 0;
+  padding: 1rem 0;
+  color: white;
+  border-left: 2px solid rgb(7, 134, 207);
+  border-bottom: 2px solid rgb(7, 134, 207);
+  border-radius: 20px;
+}
+.foto {
+  text-align: center;
+  padding-top: 2rem;
+}
+.foto img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+.baslik-yazi {
+  font-weight: bold;
+  font-size: 2em;
+  text-align: left;
+  line-height: 11rem;
+}
+.baslik-yazi p {
+  margin-left: 3rem;
+}
+.bilgiler-baslik {
+  margin-top: 5rem;
+  border-bottom: 1px solid;
+  margin-bottom: 2rem;
+}
+
+/*footer-------------*/
+#alan {
+  margin-top: 5px;
+  width: 100%;
+  height: 25rem;
+  background-color: #2e4053;
+}
+ul {
+	list-style: none;
+}
+.altsosyal {
+  display: inline-block;
+}
+
+.links li {
+  font-size: 5rem;
+  color: #9a7d0a;
+  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.links i:hover {
+  transform: translateY(1rem);
+  transform: translateX(1rem);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  color: #dab31a;
+}
+
+.links a:visited {
+  color: #9a7d0a;
+  text-decoration: none;
+}
+
+.iletisim {
+  position: relative;
+  margin-right: 5rem;
+  margin-top: 5rem;
+  position: relative;
+  float: right;
+  color: #9a7d0a;
+  font-family: "Baloo Da 2", cursive;
+}
+
+.sizebig {
+  font-size: 4rem;
+}
+.sizesmall {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 760px) {
+  .govde {
+    margin: 0;
+    border: none;
+    border-radius: 0%;
+  }
+  .baslik-yazi {
+    text-align: center;
+    line-height: 5rem;
+  }
+  .row-baslik {
+    text-decoration: underline;
+  }
+  .bilgiler-baslik {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .baslik-yazi p {
+    margin-left: 0;
+  }
+
+  .altsosyal {
+    display: inline-block;
+    padding-top: 3rem;
+  }
+  .links li {
+    font-size: 4rem;
+  }
+
+  .iletisim {
+    margin-top: 8rem;
+  }
+
+  .sizebig {
+    font-size: 2rem;
+  }
+  .sizesmall {
+    font-size: 1.3rem;
+  }
+}
