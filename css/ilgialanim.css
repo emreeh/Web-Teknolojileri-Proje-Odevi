@@ -1,0 +1,18 @@
+.container h1{
+  margin: 25px 0px;
+  color:#0d7be8;
+}
+footer span{
+  font-size:10px;
+  color:#fff;
+}
+footer a{
+  font-size: 14px;
+  color:red
+}
+body{
+  background-color:#241144;
+}
+p{
+  color:#ffc8cf;
+}
