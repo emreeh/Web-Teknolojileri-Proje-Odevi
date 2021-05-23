@@ -1,6 +1,6 @@
 function loginDenetle(){
-    var kulAd="numara@sakarya.edu.tr";
-    var sifre="numara";
+    var kulAd="b201210064@sakarya.edu.tr";
+    var sifre="b201210064";
     var KullaniciAdi=document.getElementById("kullaniciAdi").value;
     var Parola=document.getElementById("parola").value;
     var Hata=document.getElementById("hata");
