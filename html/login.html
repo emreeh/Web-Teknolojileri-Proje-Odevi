@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<link rel="stylesheet" href="../css/login.css">
+	<script src="https://kit.fontawesome.com/2465e05aae.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  
+		<title>LOGİN</title>
+</head>
+
+
+<body>
+	<!-- nav - start -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<button class="navbar-toggler-icon navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarNav"></button>
+
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav container">
+				<li class="nav-item">
+					<a class="nav-link" href="../index.html">ANASAYFA </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="city.html">ŞEHRİM</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="legacy.html">MİRASIMIZ</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="resume.html">CV</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="ilgialanim.html">İLGİALANIM</a>
+				  </li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">İLETİŞİM</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="login.html">LOGİN</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- nav - end -->
+
+	<div class="container-fluid govde">
+		<div class="row row-resim">
+			<div class="col-md-2"></div>
+			<div class="col-md-8 login-resim">
+				<img src="../images/login.png" alt="" />
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+		<div class="row row-form">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<form action="../php/login.php" method="POST" name="form" onsubmit="return loginDenetle()">
+					<div class="row row-text">
+						<div class="col-md-2"></div>
+						<div class="col-md-8 text-div">
+							<input type="text" name="kullaniciAdi" id="kullaniciAdi" class="text"
+								placeholder="Kullanıcı Adı..." />
+						</div>
+						<div class="col-md-2"></div>
+					</div>
+					<div class="row row-text">
+						<div class="col-md-2"></div>
+						<div class="col-md-8 text-div">
+							<input type="password" name="parola" id="parola" class="text" placeholder="Parola..." />
+						</div>
+						<div class="col-md-2"></div>
+					</div>
+					<div class="row row-text">
+						<div class="col-md-2"></div>
+						<div class="col-md-8 text-div">
+							<button type="submit" class="button" id="login" name="login">
+								Login
+							</button>
+						</div>
+						<div class="col-md-2"></div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="col-md-2"></div>
+		<div class="row row-hata">
+			<div class="col-md-4"></div>
+			<div class="col-md-4 hata" id="hata"></div>
+			<div class="col-md-4"></div>
+		</div>
+		<script src="../js/login.js"></script>
+	</div>
+
+
+	 <!-- footer - start -->
+	 <footer>
+		<div id="alan">
+		  <div class="altsosyal">
+			<ul class="links">
+			  <li>
+				<a href="#"><i class="fab fa-twitter-square"></i></a>
+			  </li>
+			  <li>
+				<a href="#"><i class="fab fa-instagram-square"></i></a>
+			  </li>
+			  <li>
+				<a href="#"><i class="fab fa-linkedin"></i></a>
+			  </li>
+			</ul>
+		  </div>
+  
+		  <div class="iletisim">
+			<p>
+			  <span class="sizebig">İLETİŞİM</span>
+			  <span class="sizesmall">
+				<br />
+				0555 111 11 11
+				<br />
+				yunus.pak@ogr.sakarya.edu.tr
+				<br />
+				Sakarya|Turkiye
+			  </span>
+			</p>
+		  </div>
+		</div>
+	  </footer>
+	  <!-- footer - end -->
+  
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
