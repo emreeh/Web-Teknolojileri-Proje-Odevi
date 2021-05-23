@@ -32,15 +32,15 @@ $(document).ready (function(){
     switch(havaresmi){
        case 'Clouds':
               day = "Hava durumu bulutludur";
-             $("#durumimg").attr("src","http://bit.ly/2E5erjr");
+             $("#durumimg").attr("src","../images/bulutlu.jpg");
               break;
        case 'Rains':
               day = "Hava durumu yağmurludur";
-        $("#durumimg").attr("src","http://bit.ly/2seoEo4");
+        $("#durumimg").attr("src","../images/yagmurlu.jpg");
               break;
         case 'Clear':
               day = "Hava durumu açık";
-        $("#durumimg").attr("src","http://bit.ly/2sh2hhV");
+        $("#durumimg").attr("src","../images/acikhava.jpg");
               break;
   }
   document.getElementById('baslik').innerHTML=day;
