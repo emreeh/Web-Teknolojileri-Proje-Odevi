@@ -7,32 +7,20 @@ function formDenetle(){
     var labelMesaj=document.getElementById('labelMesaj');
     var Hata=document.getElementById('hata');
     if(!(isNaN(Ad))){
-        labelAd.style.color="rgb(201, 55, 19)";
+        labelAd.style.backgroundColor="#fb3640";
         Hata.style.visibility="visible";
-        //return false;
     }
-    else{
-        labelAd.style.color="black";
-        Hata.style.visibility="hidden";
-    }
+   
     if(!(isNaN(Soyad))){
-        labelSoyad.style.color="rgb(201, 55, 19)";
+        labelSoyad.style.backgroundColor="#fb3640";
         Hata.style.visibility="visible";
-        //return false;
     }
-    else{
-        labelSoyad.style.color="black";
-        Hata.style.visibility="hidden";
-    }
+   
     if(Mesaj==""){
-        labelMesaj.style.color="rgb(201, 55, 19)";
+        labelMesaj.style.backgroundColor="#fb3640";
         Hata.style.visibility="visible";
-        //return false;
     }
-    else{
-        labelMesaj.style.color="black";
-        Hata.style.visibility="hidden";
-    }
+   
     if(isNaN(ad) && isNaN(Soyad) && Mesaj != ""){
         return true;
     }
@@ -40,3 +28,22 @@ function formDenetle(){
         return false;
     }
 }
+
+
+
+ var btn=document.querySelector("button[type=reset]");
+ btn.addEventListener("click",function temizle(){
+    
+    document.querySelector("#labelAd").style.backgroundColor="aqua";
+    document.querySelector("#labelSoyad").style.backgroundColor="aqua";
+    document.querySelector("#labelMesaj").style.backgroundColor="aqua";
+
+    document.querySelector("#hata").style.visibility="visible";
+    hata.style.visibility="hidden";
+});
+// btn. .onclick()=temizle();
+// var x= document.querySelector("button[type=reset]").click(){
+//     temizle();
+// };
+
+// document.querySelector("button[type=reset]").click(){temizle();}
