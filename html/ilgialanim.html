@@ -1,0 +1,100 @@
+<html>
+
+<head>
+  <title>Random Quotes</title>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <meta name="generator" content="Geany 1.31" />
+
+  
+  <script src="https://use.fontawesome.com/c8bf472f26.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="../css/anasayfa.css">
+  <link rel="stylesheet" type="text/css" href="../css/ilgialanim.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+  <script
+  src="https://kit.fontawesome.com/2465e05aae.js"
+  crossorigin="anonymous"
+></script>
+
+</head>
+
+<body>
+   <!-- Header - start -->
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button
+        class="navbar-toggler-icon navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+      ></button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav container">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">ANASAYFA </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="city.html">ŞEHRİM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="legacy.html">MİRASIMIZ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">CV</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="ilgialanim.html">İLGİALANIM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">İLETİŞİM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">LOGİN</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- Header - End -->
+
+  <div class="container">
+    <h1 class="text-center"> Hava Durumu </h1>
+
+    <div class="row">
+      <div class="col-sm-6 text-center">
+        <p> <b><span id="tempMin"></span> <span id="unitLabel"> &#8451;</span> <span id="f"></span></b> </p>
+        <p id="weatherMain"> </p>
+        <p id="weatherDescription"> </p>
+        <p><span id="place"> </span> / <span id="country"></span></p>
+        <button class="btn btn-primary" id="unit">Fahrenheit göster</button>
+      </div>
+      <div class="col-sm-6 text-center">
+        <img id="durumimg" src="#" class="img-thumbnail">
+        <p id="baslik"></p>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="../js/ilgialanim.js"></script>
+
+
+</body>
+
+</html>
