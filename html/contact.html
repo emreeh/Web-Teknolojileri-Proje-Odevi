@@ -1,3 +1,4 @@
+
 <html>
 
 <head>
@@ -50,39 +51,39 @@
 
   <div class="container form-govde">
     <div class="row row-baslik">
-      <div class="col-md-12 baslik">İletişim Formu</div>
+      <div class="col-md-12 baslik h1" style="text-align: center;">İletişim Formu</div>
     </div>
     <div class="row row-form">
       <div class="col-md-2"></div>
       <div class="col-md-8">
         <form action="../php/iletisim.php" method="POST" name="form" onsubmit="return formDenetle()">
           <div class="row row-text">
-            <div class="col-md-4 label" id="labelAd">Adınız</div>
+            <div class="col-md-4"> <p id="labelAd">Adınız</p></div>
             <div class="col-md-8 text-div">
               <input type="text" name="ad" id="ad" class="text" />
             </div>
           </div>
           <div class="row row-text">
-            <div class="col-md-4 label" id="labelSoyad">Soyadınız</div>
+            <div class="col-md-4"><p id="labelSoyad">Soyadınız</p></div>
             <div class="col-md-8 text-div">
               <input type="text" name="soyad" id="soyad" class="text" />
             </div>
           </div>
           <div class="row row-text">
-            <div class="col-md-4 label" id="labelEmail">E-mail</div>
+            <div class="col-md-4" id="labelEmail">E-mail</div>
             <div class="col-md-8 text-div">
               <input type="email" name="email" id="email" class="text" />
             </div>
           </div>
           <div class="row row-text">
-            <div class="col-md-4 label">Cinsiyet</div>
+            <div class="col-md-4">Cinsiyet</div>
             <div class="col-md-8 text-div">
               <input type="radio" name="cinsiyet" value="Bay" checked />Bay
               <input type="radio" name="cinsiyet" value="Bayan" />Bayan
             </div>
           </div>
           <div class="row row-text">
-            <div class="col-md-4 label">Konu</div>
+            <div class="col-md-4">Konu</div>
             <div class="col-md-8 text-div">
               <select name="konu" class="text">
                 <option value="Genel" selected>Genel</option>
@@ -102,7 +103,7 @@
             </div>
           </div>
           <div class="row row-text">
-            <div class="col-md-4 label" id="labelMesaj">Mesajınız</div>
+            <div class="col-md-4 label"  ><p id="labelMesaj" > Mesajınız</p></div>
             <div class="col-md-8 text-div">
               <textarea name="mesaj" id="mesaj" class="text" cols="60" rows="4"
                 placeholder="Mesajınızı Girin..."></textarea>
@@ -116,9 +117,9 @@
               <button type="reset">Temizle</button>
             </div>
           </div>
-          <div class="row row-text">
+          <div style="visibility: hidden;" id="hata"class="row row-text">
             <div class="col-md-2"></div>
-            <div class="col-md-8 hata" id="hata">
+            <div class="col-md-8 hata" >
               <i class="fas fa-exclamation-circle"></i> Lütfen Kırmızı
               Alanları Doldurunuz <i class="fas fa-exclamation-circle"></i>
             </div>
