@@ -1,0 +1,133 @@
+.govde{
+   
+    min-height: 30rem;
+    
+}
+.row-resim{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+.row-resim img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+.text{
+    width: 75%;
+    border: 1px solid gray;
+    padding-left: 1rem;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.text:hover{
+    opacity: 1;
+    box-shadow: 1px 1px 1px gray;
+    transition: all 0.1s linear;
+}
+.text-div{
+    text-align: center;
+}
+.row-text{
+    margin-top: 1rem;
+}
+.button{
+    width: 30%;
+    border: 1px solid rgb(7, 134, 207);
+    border-radius: 10px;
+    background-color: rgb(39, 150, 214);
+    color: white;
+    box-shadow: 1px 1px 1px gray;
+    opacity: 0.8;
+}
+.button:hover{
+    opacity: 1;
+    box-shadow: 2px 2px 2px rgb(75, 72, 72);
+    transition: all 0.1s linear;
+}
+.hata{
+    height: 5rem;
+    border: 1px solid rgb(7, 134, 207);
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgb(119, 121, 129);
+    margin-top: 2rem;
+    visibility: hidden;
+    line-height: 5rem;
+    text-align: center;
+    color: rgb(7, 134, 207);
+}
+
+/*footer-------------*/
+#alan {
+    width: 100%;
+    height: 25rem;
+    background-color: #2e4053;
+  }
+  li{
+      list-style: none;
+  }
+  .altsosyal {
+    display: inline-block;
+  }
+  
+  .links li {
+    font-size: 5rem;
+    color: #9a7d0a;
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  
+  .links i:hover {
+    transform: translateY(1rem);
+    transform: translateX(1rem);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    color: #dab31a;
+  }
+  
+  .links a:visited {
+    color: #9a7d0a;
+    text-decoration: none;
+  }
+  
+  .iletisim {
+    position: relative;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    position: relative;
+    float: right;
+    color: #9a7d0a;
+    font-family: "Baloo Da 2", cursive;
+  }
+  
+  .sizebig {
+    font-size: 4rem;
+  }
+  .sizesmall {
+    font-size: 2rem;
+  }
+
+  
+/*70px----footer-----*/
+
+@media screen and (max-width: 800px) {
+
+    .altsosyal {
+      display: inline-block;
+      padding-top: 3rem;
+    }
+    .links li {
+      font-size: 4rem;
+    }
+  
+    .iletisim {
+      margin-top: 8rem;
+    }
+  
+    .sizebig {
+      font-size: 2rem;
+    }
+    .sizesmall {
+      font-size: 1.3rem;
+    }
+  }
+  
